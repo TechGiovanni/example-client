@@ -1,0 +1,46 @@
+.authentication-container {
+  width: 900px;
+  align-items: center;
+  justify-content:space-between;
+}
+
+@media screen and (min-width: 8em) {
+  .authentication-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 20px;
+    width: 100vw;
+    height: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 70px;
+    // border: 1px solid red;
+  }
+
+  .auth-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+}
+
+
+@media screen and (min-width: 40em) {
+  .authentication-container {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    padding-top: 98px;
+  }
+
+  .auth-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    // gap: 90px;
+  }
+}
